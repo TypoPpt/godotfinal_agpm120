@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://3yei12qbclcj"]
+
+[ext_resource type="PackedScene" uid="uid://chdfnmj4fa8j8" path="res://godotfinalland.glb" id="1_q1pl4"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="godotfinalland" parent="." instance=ExtResource("1_q1pl4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.1605, -9.17895, 1.25344)
