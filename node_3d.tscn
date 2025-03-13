@@ -1,8 +1,21 @@
-[gd_scene load_steps=2 format=3 uid="uid://3yei12qbclcj"]
+[gd_scene load_steps=5 format=3 uid="uid://3yei12qbclcj"]
 
-[ext_resource type="PackedScene" uid="uid://chdfnmj4fa8j8" path="res://godotfinalland.glb" id="1_q1pl4"]
+[ext_resource type="PackedScene" uid="uid://bxwnfvyu2h6dk" path="res://godotfinalland.tscn" id="1_xr6wb"]
+[ext_resource type="PackedScene" uid="uid://cr2ersq7g6q6f" path="res://addons/Godot-4.3-Third-Person-Controller-afd21891ef0b572f58035cbc23590ddbe9c833f4/Scenes/Characters/player.tscn" id="2_roik7"]
+[ext_resource type="Script" path="res://addons/Godot-4.3-Third-Person-Controller-afd21891ef0b572f58035cbc23590ddbe9c833f4/Scripts/Characters/Player.gd" id="3_0soc5"]
+[ext_resource type="Texture2D" uid="uid://cwlb1umt7huon" path="res://IMG_1835.PNG" id="4_ol180"]
 
 [node name="Node3D" type="Node3D"]
 
-[node name="godotfinalland" parent="." instance=ExtResource("1_q1pl4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.1605, -9.17895, 1.25344)
+[node name="godotfinalland2" parent="." instance=ExtResource("1_xr6wb")]
+
+[node name="Player" parent="." instance=ExtResource("2_roik7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.1025, 4.66261, 17.0223)
+collision_layer = 1
+script = ExtResource("3_0soc5")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.3722, 4.66992, 16.8116)
+pixel_size = 0.005
+billboard = 2
+texture = ExtResource("4_ol180")
