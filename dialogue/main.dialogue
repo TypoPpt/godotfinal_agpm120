@@ -1,0 +1,91 @@
+~ start
+
+2D Cat Host: Hello, There is a food competition today, and I am representing the 2D side of this competition. Feel free to roam around and try all the goodies we have around
+
+=> END!
+
+~ beetle
+
+ 3D Beetle Host: Herro Herro, I am the Beetle that represents the 3D said today, I noticed you were looking at the 2D food item, feel free to look at ours too! There is a judge by the soup to put in your vote on which side is better
+
+~ sign 
+
+2D Board: Welcome to the 2D vs 3D food competition, on the 2D side we have Coffee, Pastries, Cookies, Muffins, & Soup!
+
+=> END!
+
+~ coffee
+
+2D Coffee: Wow! there is some coffee here! hmmmm this is very warm and tasty
+
+=> END!
+
+~ pastries
+
+2D Croissants: There are Croissants here too! Its so soft and warm, very toasty
+
+=> END!
+
+~ Cookies
+
+2D Cookies: The Cookies here look very tasty! And its very gooie too, the chocolate is melting away
+
+=> END!
+
+~ Muffin 
+
+2D Muffin: There are so much to eat! There are muffis here too!
+
+=> END!
+
+~ Soup
+
+2D Soup: This soup was a really good option to end this food compeition! It is very hot and savory
+
+=> END!
+
+~ signnn
+
+3D Board: Welcome to the 2D vs 3D food competition, on the 3D side we have Coffee, Pastries, Cookies, Muffins, & Soup!
+
+=> END!
+
+~ cofee 
+
+3D Coffee: Wow they are serving coffee here too! I can smell the richness of the coffee beans
+
+=> END!
+
+~ croiss 
+
+3D Crossiant: This Crossiant is huge! Very buttery on the outside and soft on the inside
+
+=> END!
+
+~ cookiesss 
+
+3D Cookies: I see another cookie!! this one is very round and crispy
+
+=> END!
+
+~ cupcake
+
+3D Cupcakes: This cupcake is very huge and moist!
+
+=> END!
+
+~ soups
+
+3D Soup: A big bowl of soup!! I feel full after this competition
+
+=> END!
+
+~ judge 
+
+3D Judge: Which one did you think was better?
+- 3D
+	3D Judge: 3D wins!! (end game)
+- 2D
+	3D Judge: 2D wins!! (end game)
+
+=> END!
